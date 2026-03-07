@@ -9,6 +9,7 @@ void Run()
 
     while (true)
     {
+        Console.WriteLine("Paste the path to your .webf file or write a inline code.\nHappy coding\n\n")
         string? input = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(input))
             continue;
@@ -39,5 +40,6 @@ void Run()
         }
     }
 }
+
 
 Run();
