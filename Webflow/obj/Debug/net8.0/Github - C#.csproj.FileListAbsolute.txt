@@ -1,0 +1,14 @@
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\bin\Debug\net8.0\Github - C#.exe
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\bin\Debug\net8.0\Github - C#.deps.json
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\bin\Debug\net8.0\Github - C#.runtimeconfig.json
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\bin\Debug\net8.0\Github - C#.dll
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\bin\Debug\net8.0\Github - C#.pdb
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.AssemblyInfoInputs.cache
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.AssemblyInfo.cs
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.csproj.CoreCompileInputs.cache
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.dll
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\refint\Github - C#.dll
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.pdb
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\Github - C#.genruntimeconfig.cache
+C:\EcoSys\Sample\HTML\Magizhnun\Projects\Custom projects\Custom language\Github - C#\obj\Debug\net8.0\ref\Github - C#.dll
