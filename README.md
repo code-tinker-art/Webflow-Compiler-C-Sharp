@@ -3,13 +3,7 @@
 A structured, block-based syntax for defining HTML documents.
 
 ---
-## How to use as a CLI tool
-Follow the below steps:
-- Download or clone this repo
-- Add the directory to the this project's .exe file to your systems environment variable.
-- Open CMD and type `webflow -v`
-- If it shows up the installation is a success
-  
+
 ## What Is Webflow
 
 **Webflow** is an indentation-based, block-structured language that compiles into HTML.
@@ -126,4 +120,3 @@ html:
 * Join `classes{}` with spaces
 * Auto-append `;` in `styles{}`
 * Validate attributes in `props{}` against HTML spec
-

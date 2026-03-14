@@ -150,7 +150,7 @@ namespace _Lexer.Phases
                         str += this.src[0];
                         this.src.RemoveAt(0);
                     }
-                    TokenType type = map.GetValueOrDefault(str, TokenType.Tag);
+                    TokenType type = map.GetValueOrDefault(str.ToLower(), TokenType.Tag);
                     tokens.Add(token(str, type));
                 }else if(" \n\r\t".Contains(c))
                 {

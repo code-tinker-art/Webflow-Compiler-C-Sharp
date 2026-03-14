@@ -36,6 +36,7 @@ if (args.Length > 0)
             string output = Path.ChangeExtension(file, ".html");
             File.WriteAllText(output, html);
             Console.WriteLine($"Emitted: {Path.GetFileName(output)}");
+            Console.WriteLine("Code executed without error.");
         }
         else
         {
@@ -44,5 +45,5 @@ if (args.Length > 0)
     }
 }else
 {
-    Console.WriteLine("Usage: webflow <filename>");
+    Console.WriteLine("Usage: webflow <filename> | webflow -v | webflow .");
 }
