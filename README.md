@@ -6,7 +6,7 @@ A structured, block-based syntax for defining HTML documents.
 
 ## What Is Webflow
 
-**Webflow** is an indentation-based, block-structured language that compiles into HTML.
+**Webflow** is an block-structured language that compiles into HTML. It helps to build a website component by component.
 
 * `tag:` opens an element
 * `;` closes an element
@@ -110,6 +110,75 @@ html:
     </div>
   </body>
 </html>
+```
+
+---
+
+## Comments
+
+Comments in webflow can be written after two leading minus symbols
+
+```text
+   button:
+        -- this is a comment, this will not be parsed
+        content{Click me}
+   ;
+```
+
+---
+
+## Importing 
+
+component.webf
+
+```text
+div: 
+-- ony one root element should be present for components, 
+-- rest will not parsed
+    style:
+        content{
+            .btn \{ 
+                height: 40px;
+                width: 150px;
+                background-color: blue;
+                color: white;
+                margin: 5px;
+            \}
+        }
+    ;
+    button:
+        classes{btn}
+        content{Click me!!}
+        --could write inline style for this button too
+    ;
+;
+```
+
+main.webf
+
+```text
+    import StyledBtn from "./component.webf"
+
+    Styledbtn:;
+    button:content {click me};
+```
+
+Generated HTML
+
+```html
+<div>
+    <style>
+        .btn{
+            height: 40px;
+            width: 150px;
+            background-color: blue;
+            color: white;
+            margin: 5px;
+        }
+    </style>
+<button class="btn">Click me!!</button>
+</div>
+<button>Click me!!</button>
 ```
 
 ---
